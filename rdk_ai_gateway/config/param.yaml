@@ -1,0 +1,8 @@
+/infer_service:
+  ros__parameters:
+    bin_file: "/root/.ros/rdk_ai_gateway/auth.bin"
+/infer_client:
+  ros__parameters:
+    input_str: "我是谁"
+    model: "qwen-7b"
+    # model: "doubao-lite-4k"
