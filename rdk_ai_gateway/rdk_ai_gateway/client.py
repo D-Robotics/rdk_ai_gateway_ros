@@ -13,7 +13,7 @@ class InferClient(Node):
 
         # Declare parameters
         self.declare_parameter('input_str', '晚上吃什么')
-        self.declare_parameter('model', 'qwen-7b')  # Default to 0, should be an integer
+        self.declare_parameter('model', 'doubao-pro-128k')  # Default to 0, should be an integer
 
         # Retrieve parameters
         self.input_str = self.get_parameter('input_str').get_parameter_value().string_value

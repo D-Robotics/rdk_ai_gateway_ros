@@ -4,5 +4,4 @@
 /infer_client:
   ros__parameters:
     input_str: "我是谁"
-    model: "qwen-7b"
-    # model: "doubao-lite-4k"
+    model: "doubao-lite-4k"
