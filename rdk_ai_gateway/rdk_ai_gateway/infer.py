@@ -19,7 +19,7 @@ class InferService(Node):
             return
         else:
             self.get_logger().info("Found auth.bin, the server if ready. Please pass in request.")
-        self.shift = 100
+        self.shift = 99
         
     def api_infer_cb(self, request, response):
         self.get_logger().info("Receive request..")
